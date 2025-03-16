@@ -456,7 +456,7 @@ app.get('/health', (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   logger.info(`Breach news API server running on port ${PORT}`);
   logger.info(`API endpoint: http://localhost:${PORT}/api/breach-news`);
